@@ -1,0 +1,24 @@
+.container {
+    background-color: rgb(107, 217, 239); /* Card background */
+    border-radius: 12px;
+    padding: 2rem; /* Space inside the card */
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Maximum width for the card */
+    max-height: 800px;
+    min-width: 100px; /* Maximum width for the card */
+    min-height: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .5); /* Optional: Shadow for better design */
+    text-align: center;
+}
+
+.quote{
+    font-size: 1.5rem;
+    word-wrap: break-word; /* Ensures text wraps properly */
+    margin-bottom: 1.5rem; /* Space between paragraph and h4 */
+}
+
+.speaker {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right; /* Align the author text to the left */
+}

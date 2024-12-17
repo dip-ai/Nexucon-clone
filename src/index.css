@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  /* Home Page Background */
+.home-page {
+    min-height: 100vh;  
+    background-image: url('https://img.freepik.com/free-vector/background-realistic-abstract-technology-particle_23-2148431735.jpg'); /* Set your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* Service Page Background */
+.service-page {
+    min-height: 100vh;  
+    background-image: url('https://www.nexucon.com/assets/images/bg/service-bg3.jpg'); /* Set your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Keep the heading above the cards */
+    align-items: center; /* Center horizontally */
+    padding: 20px; /* Add some padding around the content */
+}

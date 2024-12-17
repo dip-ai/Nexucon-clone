@@ -1,0 +1,84 @@
+.card-desc {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Card Styles */
+.card {
+    background-color: beige;
+    border-radius: 12px;
+    width: 300px;
+    height: 300px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for better visibility */
+}
+
+
+.os{
+    padding: 16px;
+    font-size: 5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center ;
+}
+
+.upper{
+    display: flex;
+    align-self: start;
+    gap:0.5rem
+}
+
+.title{
+    padding-left: 5px;
+    font-weight: 800;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.bio{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+.log{
+    width: 35px;
+}
+
+.lower{
+    display: flex;
+    align-self: start;
+}
+
+.read-more{
+    font-weight: 800;
+    padding-top: 5px;
+}
+
+
+/* Responsive Layout */
+@media (max-width: 992px) { /* For tablets or medium screens */
+    .card-desc {
+        grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    }
+}
+
+@media (max-width: 576px) { /* For smaller screens */
+    .card-desc {
+        display: grid; 
+    grid-template-columns: repeat(1, 1fr);
+    place-items: center;
+    }
+}
+
+
